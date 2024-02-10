@@ -231,6 +231,11 @@ export interface Options extends Partial<RequiredOptions> {}
 
 export interface RequiredOptions extends doc.printer.Options {
     /**
+     * Puts the '{' on a new line.
+     * @default false
+     */
+    allmanStyle: boolean;
+    /**
      * Print semicolons at the ends of statements.
      * @default true
      */
