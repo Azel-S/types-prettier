@@ -239,6 +239,16 @@ export interface RequiredOptions extends doc.printer.Options {
      * Print semicolons at the ends of statements.
      * @default true
      */
+    elseStatementNewLine: boolean;
+    /**
+     * allow empty multi-line at the start and the end of blocks
+     * @default false
+     */
+    multiEmptyLine: boolean;
+    /**
+     * Put else statement on a new line instead of after if statement right bracket
+     * @default true
+     */
     semi: boolean;
     /**
      * Use single quotes instead of double quotes.
