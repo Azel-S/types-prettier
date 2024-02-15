@@ -241,6 +241,11 @@ export interface RequiredOptions extends doc.printer.Options {
      */
     elseStatementNewLine: boolean;
     /**
+     * allow empty multi-line at the start and the end of blocks
+     * @default false
+     */
+    multiEmptyLine: boolean;
+    /**
      * Put else statement on a new line instead of after if statement right bracket
      * @default true
      */
