@@ -246,6 +246,11 @@ export interface RequiredOptions extends doc.printer.Options {
      */
     multiEmptyLine: boolean;
     /**
+     * keeps multiple blank lines instead of collapsing into a single blank line
+     * @default false
+     */
+    retainBlankLines: boolean;
+    /**
      * Put else statement on a new line instead of after if statement right bracket
      * @default true
      */
