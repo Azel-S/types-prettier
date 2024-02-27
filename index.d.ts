@@ -231,6 +231,11 @@ export interface Options extends Partial<RequiredOptions> {}
 
 export interface RequiredOptions extends doc.printer.Options {
     /**
+     * Controls line breaks in object literals.
+     * @default 'preserve'
+     */
+    forceObjectBreak: 'preserve' | 'forceSingleLine' | 'forceMultiLine';
+    /**
      * Puts the '{' on a new line.
      * @default false
      */
