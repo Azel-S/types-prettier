@@ -236,6 +236,11 @@ export interface RequiredOptions extends doc.printer.Options {
      */
     forceObjectBreak: 'preserve' | 'forceSingleLine' | 'forceMultiLine';
     /**
+     * retain parentheses in logical expressions
+     * @default false
+     */
+    keepParentheses: boolean; 
+    /**
      * Puts the '{' on a new line.
      * @default false
      */
