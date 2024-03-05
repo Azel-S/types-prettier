@@ -251,6 +251,11 @@ export interface RequiredOptions extends doc.printer.Options {
      */
     multiEmptyLine: boolean;
     /**
+     * allow multiple css selectors to be on the same line
+     * @default false
+     */
+    selectorsSameLine: boolean;
+    /**
      * Put else statement on a new line instead of after if statement right bracket
      * @default true
      */
