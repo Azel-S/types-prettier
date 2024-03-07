@@ -274,6 +274,11 @@ export interface RequiredOptions extends doc.printer.Options {
      * Print trailing commas wherever possible.
      * @default 'es5'
      */
+    classMemberOrder: boolean;
+    /**
+     * Print private class members before public ones
+     * @default false
+     */
     trailingComma: 'none' | 'es5' | 'all';
     /**
      * Print spaces between brackets in object literals.
