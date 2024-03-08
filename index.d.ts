@@ -231,6 +231,11 @@ export interface Options extends Partial<RequiredOptions> {}
 
 export interface RequiredOptions extends doc.printer.Options {
     /**
+     * Preserves arrays that resemble a matrix.
+     * @default true
+     */
+    matrixArray: boolean;
+    /**
      * Controls line breaks in object literals.
      * @default 'preserve'
      */
