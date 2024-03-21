@@ -231,6 +231,11 @@ export interface Options extends Partial<RequiredOptions> {}
 
 export interface RequiredOptions extends doc.printer.Options {
     /**
+     * Preserves arrays that resemble a matrix.
+     * @default true
+     */
+    matrixArray: boolean;
+    /**
      * Controls line breaks in object literals.
      * @default 'preserve'
      */
@@ -251,10 +256,17 @@ export interface RequiredOptions extends doc.printer.Options {
      */
     multiEmptyLine: boolean;
     /**
+<<<<<<< HEAD
      * keeps multiple blank lines instead of collapsing into a single blank line
      * @default false
      */
     retainBlankLines: boolean;
+=======
+     * allow multiple css selectors to be on the same line
+     * @default false
+     */
+    selectorsSameLine: boolean;
+>>>>>>> main
     /**
      * Put else statement on a new line instead of after if statement right bracket
      * @default true
