@@ -256,6 +256,11 @@ export interface RequiredOptions extends doc.printer.Options {
      */
     multiEmptyLine: boolean;
     /**
+     * keeps multiple blank lines instead of collapsing into a single blank line
+     * @default false
+     */
+    retainBlankLines: boolean;
+    /**
      * allow multiple css selectors to be on the same line
      * @default false
      */
