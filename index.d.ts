@@ -256,6 +256,16 @@ export interface RequiredOptions extends doc.printer.Options {
      */
     whitespaceRatioRead: number;
     /**
+     * Set max threshold for number of identifiers in readability analysis.
+     * @default 4
+     */
+    IDCountRead: number;
+     /**
+     * Set max threshold for minimum identifier length in readability analysis.
+     * @default 2
+     */
+    IDMinLengthRead: number;
+    /**
      * Preserves arrays that resemble a matrix.
      * @default true
      */
