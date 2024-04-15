@@ -231,6 +231,41 @@ export interface Options extends Partial<RequiredOptions> {}
 
 export interface RequiredOptions extends doc.printer.Options {
     /**
+     * Set max threshold for line length in readability analysis.
+     * @default 50
+     */
+    lineLengthRead: number;
+    /**
+     * Set max threshold for number of open brackets ('(', '{', '[') in readability analysis.
+     * @default 3
+     */
+    nestingCountRead: number;
+    /**
+     * Set max threshold for number of member access operators ('.', '->', etc.) in readability analysis.
+     * @default 5
+     */
+    memAccessRead: number;
+    /**
+     * Set max threshold for comment to code ratio in readability analysis.
+     * @default 0.3
+     */
+    commentToCodeRatioRead: number;
+    /**
+     * Set max threshold for empty line to written line ratio in readability analysis.
+     * @default 0.3
+     */
+    whitespaceRatioRead: number;
+    /**
+     * Set max threshold for number of identifiers in readability analysis.
+     * @default 4
+     */
+    IDCountRead: number;
+     /**
+     * Set max threshold for minimum identifier length in readability analysis.
+     * @default 2
+     */
+    IDMinLengthRead: number;
+    /**
      * Preserves arrays that resemble a matrix.
      * @default true
      */
