@@ -281,32 +281,32 @@ export interface RequiredOptions extends doc.printer.Options {
      */
     allmanStyle: boolean;
     /**
-     * Print semicolons at the ends of statements.
+     * Put else statement on a new line instead of after if statement right bracket.
      * @default true
      */
     elseStatementNewLine: boolean;
     /**
-     * allow empty multi-line at the start and the end of blocks
+     * Allow empty multi-line at the start and the end of blocks.
      * @default false
      */
     getSetOneLine: boolean;
     /**
-     * Put getters/setters on one line
+     * Put getters/setters on one line.
      * @default false
      */
     multiEmptyLine: boolean;
     /**
-     * keeps multiple blank lines instead of collapsing into a single blank line
+     * Keeps multiple blank lines instead of collapsing into a single blank line.
      * @default false
      */
     retainBlankLines: boolean;
     /**
-     * allow multiple css selectors to be on the same line
+     * Allow multiple css selectors to be on the same line.
      * @default false
      */
     selectorsSameLine: boolean;
     /**
-     * Put else statement on a new line instead of after if statement right bracket
+     * Print semicolons at the ends of statements.
      * @default true
      */
     semi: boolean;
@@ -321,12 +321,12 @@ export interface RequiredOptions extends doc.printer.Options {
      */
     jsxSingleQuote: boolean;
     /**
-     * Print trailing commas wherever possible.
+     * Print private/public class members before public/private ones.
      * @default 'es5'
      */
     classMemberOrder: 'none' | 'private first' | 'public first';
     /**
-     * Print private/public class members before public/private ones
+     * Print trailing commas wherever possible.
      * @default 'none'
      */ 
     trailingComma: 'none' | 'es5' | 'all';
