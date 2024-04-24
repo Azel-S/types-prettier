@@ -1,8 +1,7 @@
 {
     "name": "@types/prettier",
     "version": "2.7.2",
-    "description": "TypeScript definitions for prettier",
-    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/prettier",
+    "description": "TypeScript definitions for prettier-er",
     "license": "MIT",
     "contributors": [
         {
@@ -44,13 +43,39 @@
             "name": "Chuah Chee Shian",
             "url": "https://github.com/shian15810",
             "githubUsername": "shian15810"
+        },
+        {
+            "name": "Abbas Shah",
+            "url": "https://github.com/Azel-S",
+            "githubUsername": "Azel-S"
+        },
+        {
+            "name": "Adrien Chen",
+            "url": "https://github.com/cantfindname",
+            "githubUsername": "cantfindname"
+        },
+        {
+            "name": "Lauren Bartyczak",
+            "url": "https://github.com/lbartyczak",
+            "githubUsername": "lbartyczak"
+        },
+        {
+            "name": "Sajani Panchal",
+            "url": "https://github.com/Nini12345678901",
+            "githubUsername": "Nini12345678901"
+        },
+        {
+            "name": "Joshua Hughes",
+            "url": "https://github.com/ThePurplePigeon",
+            "githubUsername": "ThePurplePigeon"
         }
+
     ],
     "main": "",
     "types": "index.d.ts",
     "repository": {
         "type": "git",
-        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "url": "https://github.com/OpenMindedPrettier/types-prettier.git",
         "directory": "types/prettier"
     },
     "scripts": {
